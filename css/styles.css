@@ -1,0 +1,233 @@
+/* Basic reset */
+body,
+h1,
+h2,
+h3,
+p,
+div,
+a,
+button,
+input,
+label,
+select {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Body */
+body {
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #232f3e;
+    padding: 10px 20px;
+    color: white;
+}
+
+header img {
+    height: 40px;
+    padding: 5px;
+}
+
+header nav a,
+header nav button {
+    color: white;
+    text-decoration: none;
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+/* Main content */
+main {
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 20px 0;
+}
+
+main h1,
+main h2,
+main h3 {
+    margin-bottom: 20px;
+}
+
+main p {
+    margin-bottom: 10px;
+}
+
+main img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+/* Form-specific styles */
+.form-container {
+    max-width: 400px;
+    margin: 0 auto;
+    margin: 40px auto 0;
+    padding-top: 40px;
+}
+
+.form-container form div {
+    margin-bottom: 20px;
+}
+
+.form-container form input,
+.form-container form select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-container button,
+.form-container a button {
+    background-color: #ff9900;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    max-width: 200px;
+    margin: 10px auto;
+    text-align: center;
+}
+
+.error-message {
+    color: red;
+    font-size: 0.9em;
+    margin-top: 5px;
+    display: block;
+}
+
+button {
+    background-color: #ff9900;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+button:hover {
+    background-color: #e68a00;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Specific pages */
+.cart-item,
+.product {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.cart-item img,
+.product img {
+    width: 150px;
+    height: auto;
+    margin-right: 20px;
+}
+
+.cart-item div,
+.product div {
+    flex: 1;
+}
+
+.product button {
+    background-color: #ff9900;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.product button:hover {
+    background-color: #e68a00;
+}
+
+/* Links */
+a {
+    color: #ff9900;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Ensure button styling applies to buttons inside links */
+a button {
+    background-color: #ff9900;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+a button:hover {
+    background-color: #e68a00;
+}
+
+/* Hero Section */
+.hero {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background-image: url('../images/hero.jpg');
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.hero button {
+    background-color: #ff9900;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.hero button:hover {
+    background-color: #e68a00;
+}
